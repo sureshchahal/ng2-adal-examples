@@ -10,6 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var AppComponent = (function () {
+<<<<<<< HEAD
     function AppComponent(adalService) {
         this.adalService = adalService;
     }
@@ -21,6 +22,16 @@ var AppComponent = (function () {
             template: "\n  \n  <h1>Angular App using ng2-adal for Azure Ad authentication.</h1>\n  \n  <button type=\"button\" (click)=login()>Login</button>\n  "
         }), 
         __metadata('design:paramtypes', [Object])
+=======
+    function AppComponent() {
+    }
+    AppComponent = __decorate([
+        core_1.Component({
+            selector: 'my-app',
+            template: '<h1>Angular App using ng2-adal for Azure Ad authentication.</h1>'
+        }), 
+        __metadata('design:paramtypes', [])
+>>>>>>> 4a155a0d4a1a4a804f6c00867d4c874ba1cb8e5b
     ], AppComponent);
     return AppComponent;
 }());

@@ -29,15 +29,23 @@
     "reflect-metadata": "^0.1.8",
     "rxjs": "5.0.0-beta.12",
     "systemjs": "0.19.39",
+<<<<<<< HEAD
     "zone.js": "^0.6.25",
     "ng2-adal":"^0.2.2"
+=======
+    "zone.js": "^0.6.25"
+>>>>>>> 4a155a0d4a1a4a804f6c00867d4c874ba1cb8e5b
   },
   "devDependencies": {
     "@types/core-js": "^0.9.34",
     "@types/node": "^6.0.45",
     "concurrently": "^3.0.0",
     "lite-server": "^2.2.2",
+<<<<<<< HEAD
     "typescript": "^2.0.3",
     "typings": "^1.5.0"
+=======
+    "typescript": "^2.0.3"
+>>>>>>> 4a155a0d4a1a4a804f6c00867d4c874ba1cb8e5b
   }
 }

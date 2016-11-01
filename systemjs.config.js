@@ -24,7 +24,10 @@
       // other libraries
       'rxjs':                      'npm:rxjs',
       'angular-in-memory-web-api': 'npm:angular-in-memory-web-api',
+<<<<<<< HEAD
       'adal':'npm:ng2-adal/node_modules/adal-angular/lib',
+=======
+>>>>>>> 4a155a0d4a1a4a804f6c00867d4c874ba1cb8e5b
       'ng2-adal': 'npm:ng2-adal'
     },
     // packages tells the System loader how to load when no filename and/or no extension
@@ -40,15 +43,21 @@
         main: './index.js',
         defaultExtension: 'js'
       },
+<<<<<<< HEAD
       "adal":{
         main: "adal.js",
         defaultExtension: "js"
       },
+=======
+>>>>>>> 4a155a0d4a1a4a804f6c00867d4c874ba1cb8e5b
       'ng2-adal':{
           main: './core.js',
           defaultExtension: 'js'
       }
+<<<<<<< HEAD
       
+=======
+>>>>>>> 4a155a0d4a1a4a804f6c00867d4c874ba1cb8e5b
     }
   });
 })(this);
